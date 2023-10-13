@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(/photos/facts-bg.jpg);
+    background-image: url('photos/facts-bg.jpg');
     box-sizing: border-box;
 }
 
