@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('/photos/facts-bg.jpg)'';
+    background-image: url('/photos/facts-bg.jpg');
     box-sizing: border-box;
 }
 
@@ -554,7 +554,7 @@ h5
 .download:hover {
     background-color: white;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 600px) {}
  
 /*a {
     display: inline-block;
