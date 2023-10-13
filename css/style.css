@@ -25,7 +25,7 @@ header {
 
 .fa-solid.fa-book{
     font-size: xx-large;
-    color: white;
+    color: black;
     position: absolute;
     top: 0;
     left: 0;
@@ -38,7 +38,7 @@ main {
 
 footer {
     background-color: transparent;
-    color: #fff;
+    color: black;
     text-align: center;
     padding: 10px;
     position: relative;
@@ -53,29 +53,30 @@ footer {
 
 .color span {
     display: inline-block; /* Ensures each span is on its own line */
+    font-size: xx-large;
 }
 
-.color span:nth-child(1) { color:white; }
-.color span:nth-child(2) { color: white; }
-.color span:nth-child(3) { color: white; }
-.color span:nth-child(4) { color: white; }
-.color span:nth-child(5) { color: white; }
-.color span:nth-child(6) { color: white; }
-.color span:nth-child(7) { color: white; }
-.color span:nth-child(8) { color: white; }
-.color span:nth-child(9) { color: white; }
-.color span:nth-child(10) { color: white; }
-.color span:nth-child(11) { color: white; }
-.color span:nth-child(12) { color: white; }
-.color span:nth-child(13) { color: white; }
-.color span:nth-child(14) { color: white; }
-.color span:nth-child(15) { color: white; }
+.color span:nth-child(1) { color:black; }
+.color span:nth-child(2) { color: black; }
+.color span:nth-child(3) { color: black; }
+.color span:nth-child(4) { color: black; }
+.color span:nth-child(5) { color: black; }
+.color span:nth-child(6) { color: black; }
+.color span:nth-child(7) { color: black; }
+.color span:nth-child(8) { color: black; }
+.color span:nth-child(9) { color: black; }
+.color span:nth-child(10) { color: black; }
+.color span:nth-child(11) { color: black; }
+.color span:nth-child(12) { color: black; }
+.color span:nth-child(13) { color: black; }
+.color span:nth-child(14) { color: black; }
+.color span:nth-child(15) { color: black; }
 
 
 /* Add more colors as needed */
 .color i {
     font-size: xx-large; /* Adjust the size as needed */
-    color: white; /* Set the color to red */
+    color: black; /* Set the color to red */
 }
 
 
@@ -84,7 +85,7 @@ footer {
 
 /*  NAV BEGINS HERE  */
 nav a {
-    color:#ddd; /* Change the color to your desired value (#000 is black) */
+    color:black; /* Change the color to your desired value (#000 is black) */
 }
 
 nav {
@@ -125,19 +126,19 @@ li {
 
 .dropdown-menu li a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 a {
     display: block;
-    color: white; /* Set the color of the text */
+    color: black; /* Set the color of the text */
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 a:hover {
-    background-color: #ddd; /* Change the background color on hover */
+    background-color: black; /* Change the background color on hover */
     color: black; /* Change the text color on hover */
 }
 
@@ -145,7 +146,7 @@ a:hover {
 .subheader {
             font-size: 36px;
             text-align: center;
-            color: #fff;
+            color:black;
             font-family: 'Times New Roman', Times, serif;
             font-weight: 500;
         }
@@ -178,14 +179,14 @@ a:hover {
 }
 
 .icon:hover  {
-    color: white; /* Change text color on hover */
+    color: black; /* Change text color on hover */
 }
 
 /*  copyright   */
 .copyright {
     text-align: center;
     font-size: small;
-    color: white; /* Adjust the color as needed */
+    color: black; /* Adjust the color as needed */
 }
 
 
@@ -203,7 +204,7 @@ legend.box{
     padding: 5px 10px;
 }
 .box{
-    color: white;
+    color: black;
 }
 .image-grid{
     gap: 20px;
@@ -222,7 +223,7 @@ p.more a {
     display: inline-block;
     padding: 10px 20px;
     background-color: #007bff;
-    color: #fff;
+    color: black;
     text-decoration: none;
     border-radius: 5px;
     font-size: 16px;
@@ -239,7 +240,7 @@ h3 {
     font-size: 24px; /* Initial font size */
     animation: moveleftToright 15s linear infinite; /* Adjust duration and timing function as needed */
     text-align: center;
-    color:#ddd;
+    color:black;
 }
 
 /*
@@ -260,7 +261,7 @@ h3 {
     max-width: 500px;
     margin: 0 auto;
     font-weight: 400;
-    color: #ddd;
+    color: black;
     font-family: 'Times New Roman', Times, serif;
 }
 .heads{
@@ -274,7 +275,7 @@ h3 {
     font-size: 20px;
 }
 .statement{
-    color: #fff;
+    color: black;
     font-size: 16px;
 }
 .grid-container {
@@ -286,7 +287,7 @@ h3 {
 }
 .grid-item {
     position: relative;
-    background-color: white;
+    background-color: black;
     padding: 40px;
     text-align: center;
     transition: background-color 0.3s;
