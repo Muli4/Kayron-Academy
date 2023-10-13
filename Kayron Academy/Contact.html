@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Kayron Academy</title>
+    <link rel="stylesheet" href="contact.css"> <!-- Link to your CSS file (if available) -->
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+
+    </header>
+
+    <main>
+        <section class="contact-info">
+            <h2>Our Contact Information</h2>
+            <p>Address: 3QM5+7RR, Majengo, Off Malindi Road, Kanamai, Mtwapa</p>
+            <p>Phone:0740047243</p>
+            <p>Email: mauricemuli730@gmail.com</p>
+        </section>
+
+        <section class="contact-form">
+            <h2>Get In Touch</h2>
+            <form action="submit_contact_form.php" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 KAYRON ACADEMY. All Rights Reserved.@maurice</p>
+    </footer>
+</body>
+</html>
