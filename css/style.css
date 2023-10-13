@@ -102,6 +102,7 @@ ul {
 
 li {
     float: right; /* Float the list items to create a horizontal menu */
+    color: #000;
 }
 
 .dropdown-menu {
