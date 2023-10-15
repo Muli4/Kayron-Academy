@@ -86,7 +86,7 @@ footer {
 
 /*  NAV BEGINS HERE  */
 nav a {
-    color:#ddd; /* Change the color to your desired value (#000 is black) */
+    color:transparent; /* Change the color to your desired value (#000 is black) */
 }
 
 nav {
@@ -127,7 +127,7 @@ li {
 
 .dropdown-menu li a {
     text-decoration: none;
-    color: white;
+    color: #000;
 }
 
 a {
