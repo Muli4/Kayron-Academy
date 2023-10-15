@@ -143,6 +143,14 @@ a:hover {
     color: black; /* Change the text color on hover */
 }
         
+/*     SUBHEADER    */
+.subheader {
+    font-size: 36px;
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
  /* Style for the social icons in the footer */
 
  .social-icons {
