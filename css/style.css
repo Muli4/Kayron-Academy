@@ -86,7 +86,7 @@ footer {
 
 /*  NAV BEGINS HERE  */
 nav a {
-    color:transparent; /* Change the color to your desired value (#000 is black) */
+    color:black; /* Change the color to your desired value (#000 is black) */
 }
 
 nav {
@@ -139,7 +139,7 @@ a {
 }
 
 a:hover {
-    background-color: #ddd; /* Change the background color on hover */
+    background-color: transparent; /* Change the background color on hover */
     color: black; /* Change the text color on hover */
 }
         
