@@ -537,6 +537,7 @@ h5
     font-weight: lighter;
     color: black;
     font-family: 'Times New Roman', Times, serif;
+    text-decoration-color: #000;
 }
 .center-link {
     display: flex;
