@@ -536,6 +536,8 @@ h5
 .p.CBC
 {
 color: #000;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 300;
 }
 .center-link {
     display: flex;
