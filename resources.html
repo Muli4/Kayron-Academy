@@ -1,106 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resources -KAYRON Junior School</title>
+    <title>Resources - KAYRON Junior School</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
-        <header>
-            <i class="fa-solid fa-book"></i>
-           
-            <h2 class="color" id="header">
-                <i class="fa-solid fa-book-open"></i>
-                KAYRON JUNIOR SCHOOL
-            </h2>
-    
-            <script>
-                document.getElementById('header').addEventListener('click', function() {
-                    location.reload();
-                });
-            
-                document.getElementById('header').addEventListener('mouseover', function() {
-                    this.style.cursor = 'pointer';
-                });
-            </script>
-    
-            
-            <nav>
-                <ul>
-                    <li class="scroll-to-section"><a href="admission.html">ADMISSIONS</a></li>
-                    
-                    
-                    <li class="scroll-to-section"><a href="news.html">NEWS</a></li>
-                    <li class="scroll-to-section">
-                        <a href="#">ABOUT US</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="calender.html">Calender</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
-                            <li><a href="resources.html">Resources</a></li>
-                        </ul>
-                    </li>
-                    <li class="scroll-to-section">
-                        <a href="#">ACADEMICS</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="history.html">History</a></li>
-                            <li><a href="curicullum.html">Curicullum</a></li>
-                            <li><a href="gallery.html">Gallery</a></li>
-                        </ul>
-                    </li>
-                    <li class="scroll-to-section"><a href="index.html">HOME</a></li>
-                </ul>
-            </nav>
-            <script>
-                document.querySelector('.mobile-menu-icon').addEventListener('click', function() {
-  document.querySelector('ul').classList.toggle('active');
-});
+        <i class="fa-solid fa-book"></i>
 
-            </script>
-        </header><br><br>
-    </header><br><br><br><br>
-    
+        <h2 class="color" id="header">
+            <i class="fa-solid fa-book-open"></i>
+            KAYRON JUNIOR SCHOOL
+        </h2>
+
+        <script>
+            document.getElementById('header').addEventListener('click', function() {
+                location.reload();
+            });
+
+            document.getElementById('header').addEventListener('mouseover', function() {
+                this.style.cursor = 'pointer';
+            });
+        </script>
+
+
+        <!-- Mobile Menu Icon -->
+        <div class="mobile-menu-icon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <nav>
+            <ul>
+                <li class="scroll-to-section"><a href="admission.html">ADMISSIONS</a></li>
+                <li class="scroll-to-section"><a href="news.html">NEWS</a></li>
+                <li class="scroll-to-section">
+                    <a href="#">ABOUT US</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="calender.html">Calendar</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                    </ul>
+                </li>
+                <li class="scroll-to-section">
+                    <a href="#">ACADEMICS</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="curriculum.html">Curriculum</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </li>
+                <li class="scroll-to-section"><a href="index.html">HOME</a></li>
+            </ul>
+        </nav>
+    </header><br><br>
     <h5>RESOURCES</h5>
     <main class="resource-container">
-        <section class="resource">
-            <h4>GRADE 1</h4>
-            <p class="CBC">This is a CBC trial examination for grade one children and parents are advised to download and print or keep soft copy for their children to practice in order to stay fit and also increase their knowledge in class room.</p>
-            <div class="center-link">
-            <a href="Documents/GRADE 1 EXAMS SAMPLES.pdf" target="_blank" class="download">Download Grade One Exams</a>
-            </div>
-        </section>
-
-        <section class="resource">
-            <h4>GRADE 2</h4>
-            <p class="CBC">This is a CBC trial examination for grade two children and parents are advised to downloadand print or keep soft copy for their children to practice in order to stay fit and increase their knowledge in class room</p>
-            <div class="center-link">
-            <a href="Documents/GRADE 2 EXAMS SAMPLES.pdf" target="_blank" class="download">Download Grade Two Exams</a>
-            </div>
-            </section>   
-
-        <section class="resource">
-            <h4>GRADE 3</h4>
-            <p class="CBC">Description of Resource 3.</p>
-            <div class="center-link">
-            <a href="Documents/GRADE 3 EXAMS SAMPLES.pdf" target="_blank" class="download">Download Resource 3</a>
-            </div>
-        </section>
-
-        <section class="resource">
-            <h4>GRADE 4</h4>
-            <p class="CBC">Description of Resource 4.</p>
-            <div class="center-link">
-            <a href="Documents/GRADE 4 EXAMS SAMPLES.pdf" target="_blank" class="download">Download Resource 4</a>
-            </div>
-        </section>
-
-
-        <!-- Add more sections for additional resources as needed -->
+        <!-- Your resource sections go here -->
     </main>
-
     <footer>
         <p>&copy; 2023 KAYRON ACADEMY. All Rights Reserved.@maurice</p>
     </footer>
+
+    <script>
+        document.querySelector('.mobile-menu-icon').addEventListener('click', function() {
+            document.querySelector('ul').classList.toggle('active');
+        });
+    </script>
+
 </body>
+
 </html>
