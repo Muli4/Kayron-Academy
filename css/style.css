@@ -470,12 +470,7 @@ p {
 
 
 /* RESOURCES */
-header {
-    text-align: center;
-    color: #fff; /* Text color */
-    padding: 10px;
-    position:relative;
-}
+
 
 h5 {
     margin: 20px 0 0; /* Adjust the top margin as needed */
