@@ -15,7 +15,7 @@ header {
     color: black;
     padding: 5px;
     text-align: center;
-    position: relative;
+    position: fixed;
     top: 0; /* Stick it to the top of the viewport */
     left: 0;
     width: 1000; /* Make it span the full width of the viewport */
@@ -276,7 +276,7 @@ h3 {
     font-size: 20px;
 }
 .statement{
-    color: black;
+    color: white;
     font-size: 16px;
 }
 .grid-container {
@@ -494,6 +494,7 @@ header {
     text-align: center;
     color: #fff; /* Text color */
     padding: 10px;
+    position: fixed;
 }
 
 h5 {
