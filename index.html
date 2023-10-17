@@ -73,53 +73,8 @@
             </ul>
         </nav>
     </header><br><br>
-    <script>
-
-    </script>
-
-    <!--JS-->
-    <h1 class="subheader" id="subheader">Welcome to Kayron <span id="academy">Academy</span>👨‍🎓</h1>
-
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-    setInterval(function () {
-        animateText('subheader');
-    }, 30000); // Adjust the interval (in milliseconds) between animations
-});
-
-function animateText(elementId) {
-    const element = document.getElementById(elementId);
-    const text = element.textContent;
-    element.textContent = '';
-
-    for (let i = 0; i < text.length; i++) {
-        setTimeout(function () {
-            element.textContent += text[i];
-        }, i * 100); // Adjust the delay (100ms) between letters if needed
-    }
-
-    // Fade in after text animation
-    setTimeout(function () {
-        fadeIn(element);
-    }, text.length * 100); // Adjust the total animation time
-}
-
-function fadeIn(element) {
-    let opacity = 0;
-    const timer = setInterval(function () {
-        if (opacity >= 1) {
-            clearInterval(timer);
-        }
-        element.style.opacity = opacity;
-        opacity += 0.1;
-    }, 100);
-}
-
-    </script>
-
-    <!--JS-->
-
+    <h1 class="subheader">WELCOME TO KAYRON ACADEMY👨🏾‍🎓</h1>
+    <h1 class="subheader">WELCOME TO KAYRON ACADEMY👨🏾‍🎓</h1>
     <!-- Main Content Section -->
     <main>
         <fieldset>
