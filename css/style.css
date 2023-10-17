@@ -133,6 +133,26 @@ a:hover {
     background-color: #ddd; /* Change the background color on hover */
     color: black; /* Change the text color on hover */
 }
+/* This CSS applies to all screen sizes */
+.mobile-menu-icon {
+    display: none; /* Initially hide the mobile menu icon */
+  }
+  
+  /* This CSS applies only to screens with a maximum width of 768 pixels (typical mobile devices) */
+  @media screen and (max-width: 768px) {
+    .mobile-menu-icon {
+      display: block; /* Show the mobile menu icon */
+    }
+    
+    ul {
+      display: none; /* Initially hide the navigation menu */
+    }
+  
+    ul.active {
+      display: block; /* Show the navigation menu when active */
+    }
+  }
+  
 
 /*JS CODE*/
 .subheader {
