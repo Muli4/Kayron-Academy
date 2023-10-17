@@ -470,14 +470,6 @@ p {
 
 
 /* RESOURCES */
-
-
-h5 {
-    margin: 20px 0 0; /* Adjust the top margin as needed */
-    font-size: 1.5em;
-}
-
-
 main {
     padding: 10px;
 }
@@ -505,7 +497,7 @@ h4 {
 }
 h5
 {
-    color: white;
+    color: #000;
     font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
     text-align: center;
