@@ -533,10 +533,11 @@ h5
     font-size: xx-large;
     text-align: center;
 }
-.p.muli {
-    font-weight: lighter;
-    color:black;
-    font-family: 'Times New Roman', Times, serif;
+.p.CBC
+{
+color: #000;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 300;
 }
 .center-link {
     display: flex;
